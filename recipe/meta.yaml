@@ -1,5 +1,5 @@
 {% set name = "google-cloud-orchestration-airflow" %}
-{% set version = "1.8.0" %}
+{% set version = "1.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-orchestration-airflow-{{ version }}.tar.gz
-  sha256: a06063a85c5570cce5ae8d4a7528279abe1021acc20e26894cb5e7f27658b2d3
+  sha256: e411d54096cc67896698a8dbc12422e4ee98e22e8d200fb10a54a906d79713ac
 
 build:
   noarch: python
@@ -33,7 +33,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/googleapis/python-orchestration-airflow
+  home: https://github.com/googleapis/google-cloud-python
   summary: Google Cloud Orchestration Airflow API client library
   license: Apache-2.0
   license_file: LICENSE
