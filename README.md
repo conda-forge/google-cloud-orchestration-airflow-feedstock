@@ -3,7 +3,7 @@ About google-cloud-orchestration-airflow-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-orchestration-airflow-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/googleapis/python-orchestration-airflow
+Home: https://github.com/googleapis/google-cloud-python
 
 Package license: Apache-2.0
 
