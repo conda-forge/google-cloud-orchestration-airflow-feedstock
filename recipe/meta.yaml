@@ -1,5 +1,5 @@
 {% set name = "google-cloud-orchestration-airflow" %}
-{% set version = "1.16.0" %}
+{% set version = "1.16.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 4d5ecf76403bdd8874ad43d8affc15194412fd8330b1e87d1895d58fa7ed3f9f
+  sha256: ad1aff744de602f1565832bfc43aff555da6f899a7b07f93ce3fa913b82ff3dd
 
 build:
   noarch: python
