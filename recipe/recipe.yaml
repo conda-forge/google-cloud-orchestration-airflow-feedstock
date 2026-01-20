@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-orchestration-airflow
-  version: 1.18.0
+  version: "1.19.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 47f0dc36758b9c00305dd216dcb3daaf4652742b8f8ad6511437f21434f30516
+  sha256: 372090e2ce7e052f6e6221862fd5645a8de36bdcb45048f59cc3319bdab4d80e
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
