@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-orchestration-airflow
-  version: "1.22.0"
+  version: "1.23.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 1883195aa861658eb6c53a794d0658b9f626bd8ee75d30055b4c8c6a743042cc
+  sha256: a557820da5e5419408f8aeb29f783bac351b95d91ad0908575f5a3654d058ac2
 
 build:
   number: 0
